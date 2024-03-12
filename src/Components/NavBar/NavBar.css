@@ -1,0 +1,46 @@
+.logo{
+    position: fixed;
+    left: 20px;
+    width: 80px;
+}
+
+.avatar{
+    position: fixed;
+    right: 20px;
+    width: 30px;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* height: 30px; */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+#transp{
+    background-image: linear-gradient(180deg, black, rgba(37, 37, 37, 0.61), transparent);
+}
+
+#nonetransp{
+    background-color: #111;
+}
+
+.navMenu{
+    display: flex;
+    margin-left: 130px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ul li {
+    font-size: 14px;
+    font-weight: 500;
+    list-style-type: none;
+    margin-left: 15px;
+    color: #e4dede;
+    cursor: pointer;
+    /* padding: 0 10px 0px 10px; */
+}
